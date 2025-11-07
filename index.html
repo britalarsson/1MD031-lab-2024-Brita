@@ -1,1 +1,93 @@
-Hello world
+<!DOCTYPE HTML>
+<html lang="en">
+   <head>
+       <title>Britas Burgare</title>
+       <meta charset="utf-8"/>
+   </head>
+   <body>
+    <header>
+        <h1> BRITAS BURGARE </h1>
+    </header>
+       <nav><h3>Choice of Burger</h3></nav> 
+       <main>
+         <section> 
+            <p> Make your choice </p>
+            <div style="display: inline-block" > 
+            <h4> Classic </h4>
+            <img src="https://www.melskitchencafe.com/wp-content/uploads/2013/04/grilled-burger-original.jpg"
+                 width="150" alt="hamburgare">
+            <ul>
+                <li>Glutenfree</li>
+                <li>Lactosefree</li>
+                <li>100% Beef</li>
+            </ul> 
+            </div>
+            <div style="display: inline-block"> 
+            <h4> Cheeseburger </h4>
+            <img src="https://static01.nyt.com/images/2023/07/13/multimedia/13xp-cheese-king/13xp-cheese-king-superJumbo.jpg?quality=75&auto=webp"
+                 width="150" alt="hamburgare">
+            <ul>
+                <li>Contains gluten</li>
+                <li>Contains a lot of lactose</li>
+                <li>Vegetarian </li>
+            </ul> 
+            </div > 
+            <div style="display: inline-block"> 
+            <h4> Britas Special </h4>
+            <img src="https://pagen.se/globalassets/recept/2023/hamburgermonster.jpg?w=734&h=462&mode=crop&resized=true"
+                 width="150" alt="hamburgare">
+            <ul>
+                <li>Contains pickles</li>
+                <li>Contains lactose</li>
+                <li>100% organic grass fed beef</li>
+            </ul> 
+            </div>
+            <h3> Information </h3>
+         <section id="contact"> 
+            <form>
+            <p>
+                <label for="fullname">Full name</label><br>
+                <input type="text" id="fullname" name="fn" required="required" placeholder="First- and Last name">
+            </p>
+            <p>
+                <label for="email">E-mail</label><br>
+                <input type="email" id="email" name="em" required="required" placeholder="E-mail address">
+            </p>
+            <p>
+                <label for="street">Street</label><br>
+                <input type="text" id="street" name="st" placeholder="Street name">
+            </p>
+            <p>
+                <label for="house">House</label><br>
+                <input type="number" id="house" name="hs" required="required" placeholder="House number">
+            </p>
+            <p>
+                <label for="payment">Payment method</label><br>
+                <select id="payment" name="pay">
+                    <option selected="selected">Swish</option>
+                    <option>Card (Visa/Mastercard)</option>
+                    <option>Apple Pay</option>
+                    <option>Invoice w Klarna</option>
+                </select>
+            </p>
+            <p>
+                <label for="gender-male">Gender:</label><br>
+
+                <input type="radio" id="gender-male" name="gender" value="male" checked="checked">
+                <label for="gender-male">Male</label><br>
+                <input type="radio" id="gender-female" name="gender" value="female">
+                <label for="gender-female">Female</label><br>
+                <input type="radio" id="gender-na" name="gender" value="na">
+                <label for="gender-na">Do not wish to provide</label>
+            </p>
+            </form>
+         </section>
+            <button type="submit">
+            <img src="https://png.pngtree.com/png-vector/20230707/ourmid/pngtree-green-send-button-in-gradation-color-vector-png-image_7481753.png" width="100" > 
+            </button>
+        </main>
+        <footer> 
+            <hr> &copy; Brita Larsson ab
+        </footer>
+   </body>
+</html>
