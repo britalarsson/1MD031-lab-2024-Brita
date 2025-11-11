@@ -1,47 +1,55 @@
 <!DOCTYPE HTML>
 <html lang="en">
    <head>
+    <link rel="stylesheet" type="text/css" href="/Users/britalarsson/mynewfolder/1MD031-lab-2024-Brita/public/css/style.css">
        <title>Britas Burgare</title>
        <meta charset="utf-8"/>
    </head>
    <body>
-    <header>
+    <header id="top-header">
+        <img src="https://www.visitstockholm.se/media/original_images/pelikan-restaurang.jpg" alt="header image">
         <h1> BRITAS BURGARE </h1>
     </header>
-       <nav><h3>Choice of Burger</h3></nav> 
+
        <main>
-         <section> 
-            <p> Make your choice </p>
-            <div style="display: inline-block" > 
-            <h4> Classic </h4>
-            <img src="https://www.melskitchencafe.com/wp-content/uploads/2013/04/grilled-burger-original.jpg"
-                 width="150" alt="hamburgare">
-            <ul>
-                <li>Glutenfree</li>
-                <li>Lactosefree</li>
-                <li>100% Beef</li>
-            </ul> 
+         <section id="burgers"> 
+
+            <h3>Choice of Burger</h3>
+            <p>Make your choice</p>
+            
+            <div id="burger-items" > 
+                <div>
+                    <h4> Classic </h4>
+                    <img src="https://www.melskitchencafe.com/wp-content/uploads/2013/04/grilled-burger-original.jpg"
+                        width="150" alt="hamburgare">
+                    <ul>
+                        <li><span class="allergene">Gluten</span>free</li>
+                        <li><span class="allergene">Lactose</span>free</li>
+                        <li>100% Beef</li>
+                    </ul> 
+                </div>
+                <div> 
+                    <h4> Cheeseburger </h4>
+                    <img src="https://static01.nyt.com/images/2023/07/13/multimedia/13xp-cheese-king/13xp-cheese-king-superJumbo.jpg?quality=75&auto=webp"
+                        width="150" alt="hamburgare">
+                    <ul>
+                        <li>Contains <span class="allergene"> Gluten</span></li>
+                        <li>A lot of <span class="allergene">Lactose</span></li>
+                        <li><span class="allergene">Vegeterian</span> </li>
+                    </ul> 
+                </div > 
+                <div > 
+                    <h4> Britas Special </h4>
+                    <img src="https://pagen.se/globalassets/recept/2023/hamburgermonster.jpg?w=734&h=462&mode=crop&resized=true"
+                        width="150" alt="hamburgare">
+                    <ul>
+                        <li><span class="allergene">Gluten</span>free</li>
+                        <li>Contains <span class="allergene">Lactose</span></li>
+                        <li>Organic <span class="allergene">grassfed</span> beef</li>
+                    </ul> 
+                </div>
             </div>
-            <div style="display: inline-block"> 
-            <h4> Cheeseburger </h4>
-            <img src="https://static01.nyt.com/images/2023/07/13/multimedia/13xp-cheese-king/13xp-cheese-king-superJumbo.jpg?quality=75&auto=webp"
-                 width="150" alt="hamburgare">
-            <ul>
-                <li>Contains gluten</li>
-                <li>Contains a lot of lactose</li>
-                <li>Vegetarian </li>
-            </ul> 
-            </div > 
-            <div style="display: inline-block"> 
-            <h4> Britas Special </h4>
-            <img src="https://pagen.se/globalassets/recept/2023/hamburgermonster.jpg?w=734&h=462&mode=crop&resized=true"
-                 width="150" alt="hamburgare">
-            <ul>
-                <li>Contains pickles</li>
-                <li>Contains lactose</li>
-                <li>100% organic grass fed beef</li>
-            </ul> 
-            </div>
+            </section>
             <h3> Information </h3>
          <section id="contact"> 
             <form>
