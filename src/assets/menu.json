@@ -1,21 +1,21 @@
 [{
-    "name": "Veggie Bliss", 
-    "kCal": 500, 
-    "url": "https://images-bonnier.imgix.net/files/ifo/production/20220412084608/Kødfri-burger-1.jpg?auto=compress,format&w=1024%201024w",
-    "lactose": false, 
+    "name": "Classic Hamburger", 
+    "kCal": 100, 
+    "img": "https://www.melskitchencafe.com/wp-content/uploads/2013/04/grilled-burger-original.jpg",
+    "lactose": true, 
     "gluten": false
 },
 {
-    "name": "Veggie Bliss", 
-    "kCal": 500, 
-    "url": "https://images-bonnier.imgix.net/files/ifo/production/20220412084608/Kødfri-burger-1.jpg?auto=compress,format&w=1024%201024w",
-    "lactose": false, 
-    "gluten": false
-},
-{
-    "name": "Veggie Bliss", 
-    "kCal": 500, 
-    "url": "https://images-bonnier.imgix.net/files/ifo/production/20220412084608/Kødfri-burger-1.jpg?auto=compress,format&w=1024%201024w",
-    "lactose": false, 
-    "gluten": false
-}]
+    "name": "Not Just Another Cheeseburger",
+    "kCal": 1050,
+    "lactose": true,
+    "gluten": true,
+    "img": "https://static01.nyt.com/images/2023/07/13/multimedia/13xp-cheese-king/13xp-cheese-king-superJumbo.jpg?quality=75&auto=webp"
+  },
+  {
+    "name": "The Best Britas Special",
+    "kCal": 850,
+    "lactose": true,
+    "gluten": true,
+    "img": "https://pagen.se/globalassets/recept/2023/hamburgermonster.jpg?w=734&h=462&mode=crop&resized=true"
+  }]
